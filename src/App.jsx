@@ -1,13 +1,15 @@
-import { BrowserRouter,Routes,Route } from "react-router-dom"
+import { BrowserRouter,Routes,Route } from "react-router-dom";
 import About from "./pages/About";
 import Profile from "./pages/profile";
 import Home from "./pages/Home";
 import SignIn from "./pages/signIn";
 import SignUp from "./pages/SignUp"
+import Header from "./components/Header";
 
 function App() {
   return (
     <BrowserRouter>
+    <Header/>
     
     <Routes>
 
